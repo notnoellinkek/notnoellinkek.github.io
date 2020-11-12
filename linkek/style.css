@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box
+}
+
+.purple {
+    background: green
+}
+
+.brown {
+    background: mediumorchid
+}
+
+/* ==== KONTÉNEREK ==== */
+header {
+    width: 100vw;
+    height: 15vh;
+}
+
+footer {
+    height: 5vh
+}
