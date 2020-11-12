@@ -1,0 +1,181 @@
+header h1 {
+  display: inline-block;
+  position: absolute;
+  top: 7.5vh;
+  font-family: "Times New Roman", serif;
+  font-size: 2rem;
+  color: white;
+  display: none;
+}
+/* == Main == */
+main {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1 {
+    font-size: 1.45rem;
+    text-align: center;
+    padding-left: .5rem;
+    font-weight: bold;
+    line-height: 1.3;
+    padding-top: 1rem;
+}
+article {
+    padding-bottom: 1rem
+}
+/* = profiles = */
+#profiles figure {
+    text-align: center;
+}
+#profiles a {
+    font-family: Caveat;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#profiles p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin: .3rem
+}
+/* = ad = */
+#ad {
+    padding-bottom: 0
+}
+#ad a {
+    display: block;
+    text-align: center
+}
+#ad img {
+    height: 17.5rem;
+}
+#ad p {
+    text-align: center;
+}
+/* = gyakorikerdesek links = */
+#links-h1 a {
+    text-decoration: inherit
+}
+.share {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    background: green;
+    color: white;
+    padding: .7rem;
+    border-radius: 9999px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last {
+    margin-bottom: 1rem
+}
+.all-links {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: green;
+    padding: .1rem .5rem;
+    border: .1rem solid green;
+    margin: .5rem 1rem
+}
+.all-link i {
+    padding-left: .3rem;
+}
+/* = Games = */
+#game-p {
+    padding: 1rem .5rem
+}
+
+/* == main == */
+    /* = profiles = */
+    #profiles img {
+        width: 20vw
+    }
+    /* = links = */
+    .share {
+        width: 40vw;
+        margin: 1rem auto
+    }
+    .all-links {
+        margin-left: 42vw
+    }
+    /* = game = */
+    #game-p {
+        text-align: center
+    }
+}
+/* ==== GÉPES ELRENDEZÉS ==== */
+@media (min-width: 1024px) {
+    /* == header == */
+    header h1 {
+        font-size: 3rem
+    }
+    /* == main == */
+    #profiles {
+        width: 70vw
+    }
+    #ad {
+        width: 30vw;
+        position: absolute;
+        right: 3vw;
+        top: 20vh
+    }
+/* = profiles = */
+    #profiles img {
+        width: 15vw
+    }
+    #profiles p {
+        width: 30vw
+    }
+    .profiles-flexbox {
+        display: flex;
+        margin-left: 5vw
+    }
+    /* = links = */
+    #links {
+        width: 40vw
+    }
+    .share {
+        color: green;
+        background: white;
+        border: .15rem solid green;
+    }
+    .share:hover {
+        color: white;
+        background: green;
+        transition: all 0.3s ease-in-out
+    }
+    .all-links {
+        margin-left: 15vw
+    }
+    .all-links:hover {
+        color: white;
+        background: green;
+        transition: all 0.3s ease-in-out
+    }
+    .phone-tablet-only {
+        display: none
+    }
+    /* = game = */
+    #game {
+        width: 40vw;
+        margin-top: 6rem
+    }
+    .flexbox {
+        display: flex;
+        margin-left: 15vw
+    }
+}
+@media (min-width: 1440px) {
+    /* = profiles = */
+    #profiles img {
+        width: 10vw
+    }
+}
+/* ==== 4K ===== */
+@media (min-width: 2560px) {
+    /* = profiles = */
+    #profiles img {
+        width: 7vw
+    }
+}
